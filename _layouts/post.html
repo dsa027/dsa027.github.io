@@ -20,15 +20,17 @@ layout: compress
 
   {% if page.featured-img %}
 
-  <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/{{page.featured-img}}.jpg">
+  <div class="hero--small lazyload" data-bg="{{site.url}}/assets/img/posts/{{page.featured-img}}.png">
     {% else %}
-    <div class="hero dark-bg">
+    <div class="hero--small dark-bg">
       {% endif %}
       <div class="hero__wrap">
         <h1 class="hero__title">{{ page.title }}</h1>
         <p class="hero__meta">
             <span>
-              <time>{{ page.date | date_to_string }}</time>&nbsp;
+              {% if page.date %}
+                <time>{{ page.date | date: '%B %d, %Y' }}</time>&nbsp;
+              {% endif %}
             </span>
           <span>
               {% assign words = content | number_of_words %}
