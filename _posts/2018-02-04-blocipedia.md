@@ -7,10 +7,10 @@ summary: A Web-based, SPA Wiki-like creator written in AngularJS
 featured-img: blocipedia_logo
 ---
 <a href="https://blooming-wave-99055.herokuapp.com/">
-  <img src="{{site.url}}/assets/img/posts/blocipedia_logo_thumb.png"/>
+  <img src="/assets/img/posts/blocipedia_logo_thumb.png"/>
 </a>
 
-![]( {{site.url}}/assets/img/posts/GitHub-Mark-32px.png "GitHub")
+![]( /assets/img/posts/GitHub-Mark-32px.png "GitHub")
 [GitHub](https://github.com/dsa027/blocipedia)
 {:.center}
 

@@ -2,11 +2,11 @@
   {% if post.featured-img %}
   <figure class="post-card__thumb">
     <img
-      src="{{site.url}}/assets/img/posts/{{post.featured-img}}_placehold.png"
+      src="/assets/img/posts/{{post.featured-img}}_placehold.png"
       class="lazyload blur"
       alt="{{post.title}}"
     />
-    <noscript><img src="{{site.url}}/assets/img/posts/{{post.featured-img}}_thumb.png" alt="{{ post.title }}"></noscript>
+    <noscript><img src="/assets/img/posts/{{post.featured-img}}_thumb.png" alt="{{ post.title }}"></noscript>
   </figure>
   {% else %}
   <figure class="post-card__thumb">

@@ -7,10 +7,10 @@ summary: A Web-based, SPA song player written in AngularJS
 featured-img: bloc_jams_logo
 ---
 <a href="https://bloc-jams-angular-dsa027.herokuapp.com/">
-  <img src="{{site.url}}/assets/img/posts/bloc_jams_logo_thumb.png"/>
+  <img src="/assets/img/posts/bloc_jams_logo_thumb.png"/>
 </a>
 
-![]( {{site.url}}/assets/img/GitHub-Mark-32px.png "GitHub")
+![]( /assets/img/GitHub-Mark-32px.png "GitHub")
 [GitHub](https://github.com/dsa027/Bloc-Jams-AngularJS)
 {:.center}
 
