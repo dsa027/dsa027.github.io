@@ -20,13 +20,13 @@ layout: compress
 
   {% if page.featured-img %}
 
-  <div class="hero--small lazyload" data-bg="{{site.url}}/assets/img/posts/{{page.featured-img}}.png">
+  <div class="hero--small lazyload" data-bg="{{site.url}}/assets/img/posts/{{page.featured-img}}_thumb.png">
     {% else %}
     <div class="hero--small dark-bg">
       {% endif %}
       <div class="hero__wrap">
         <h1 class="hero__title">{{ page.title }}</h1>
-        <p class="hero__meta">
+        <!-- <p class="hero__meta">
             <span>
               {% if page.date %}
                 <time>{{ page.date | date: '%B %d, %Y' }}</time>&nbsp;
@@ -41,7 +41,7 @@ layout: compress
               {% endif %} read
               &nbsp;
           </span>
-        </p>
+        </p> -->
       </div>
     </div>
   </div>

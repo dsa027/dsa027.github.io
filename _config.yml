@@ -4,7 +4,7 @@ email: dsa027@gmail.com # email for form submission, you also have to change it 
 description: > # this means to ignore newlines until "baseurl:"
   David Alderson's application portfolio.
 baseurl:  # the subpath of your site, e.g. /blog
-url: "http://localhost:3000" #https://dsa027.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dsa027.github.io/" # "http://localhost:3000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsa027 # replace with your_twitter_username or comment to remove link from footer
 github_username:  dsa027 # replace with your_github_username or comment to remove link from footer
 linkedin_username:  david-stuart-alderson # replace with your_linkedin_username or comment to remove link from footer
@@ -17,7 +17,7 @@ social:
     - https://github.com/dsa027
 
 disqus:
-  shortname: da # to enable comments replace with your_disqus_shortname
+  shortname: dsa027-github-io # to enable comments replace with your_disqus_shortname
 
 # Build settings
 markdown: kramdown
