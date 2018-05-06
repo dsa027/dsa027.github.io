@@ -132,12 +132,6 @@ gulp.task('critical', function (cb) {
   });
 });
 
-gulp.task('watch', function() {
-  gulp.watch('_sass/**/*.scss', ['sass']);
-  gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md',  'pages_/*.md', '_include/*html'], ['rebuild']);
-  gulp.watch(src.js, ['js']);
-});
-
 gulp.task('default', ['browser-sync', 'watch']);
 
 // Minify HTML
@@ -213,6 +207,13 @@ gulp.task('serve', function() {
       baseDir: '_site'
     }
   });
+});
+
+gulp.task('watch', function() {
+  gulp.watch('_sass/**/*.scss', ['sass']);
+  gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md',  'pages_/*.md', '_portfolio/*.md', '_include/*html'], ['rebuild']);
+  gulp.watch(['assets/img/*.png', 'assets/img/*.jpg', 'assets/img/**/*.png', 'assets/img/**/*.jpg'], ['rebuild']);
+  gulp.watch(src.js, ['js']);
 });
 
 gulp.task('build', ['sass', 'js', 'jekyll-build', 'img', 'sw']);

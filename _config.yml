@@ -36,6 +36,11 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
 include: ['_pages']
 permalink: /:title/
 

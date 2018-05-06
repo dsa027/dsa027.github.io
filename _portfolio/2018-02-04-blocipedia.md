@@ -2,20 +2,15 @@
 layout: post
 title: Blocipedia
 thumbnail-path: assets/img/posts/blocipedia_logo_thumb.png
-short-description: A Web-based, SPA Wiki-like creator written in AngularJS
-summary: A Web-based, SPA Wiki-like creator written in AngularJS
+summary: A Web-based, Wiki-like SPA Wiki-like written in Rails and using Ruby, JavaScript, jQuery, Ajax, Devise, Stripe, Select2, Bootstrap, HTML/CSS, Heroku, GitHub
 featured-img: blocipedia_logo
 ---
-<a href="https://blooming-wave-99055.herokuapp.com/">
-  <img src="/assets/img/posts/blocipedia_logo_thumb.png"/>
-</a>
+[1]: https://blooming-wave-99055.herokuapp.com/
+[2]: /assets/img/posts/blocipedia_logo_thumb.png
+[![Heroku][2]][1]
 
-![]( /assets/img/posts/GitHub-Mark-32px.png "GitHub")
+![]( /assets/img/GitHub-Mark-32px.png "GitHub")
 [GitHub](https://github.com/dsa027/blocipedia)
-{:.center}
-
-{% highlight javascript%}
-{% endhighlight %}
 
 # Summary
 
@@ -36,21 +31,21 @@ featured-img: blocipedia_logo
   When viewing a wiki, you may click on buttons to Edit Wiki, Delete Wiki, and create a new wiki. The full wiki markdown is shown on this page.
 
   Editing a wiki and creating a new wiki look the same except the new wiki doesn't yet contain information. There's quite a bit on this page.
-  - Title - the wiki title
-  - Body - The wiki's markdown is entered here.
+  - Title: the wiki title
+  - Body: The wiki's markdown is entered here.
   - Private wiki (Premium only): check to take this wiki out of public view.
-  - Save - publishes the wiki.
-  - Preview - click the refresh button to see how the wiki markup will appear.
+  - Save: publishes the wiki.
+  - Preview: click the refresh button to see how the wiki markup will appear.
   - Collaborators (Premium only) - Search and select multiple current Blocipedia users to help you edit the wiki.
 
   To upgrade your Standard account to a Premium account, click on Upgrade Account at the top of any page. From here, just enter the a test Stripe credit card number (e.g., 4242 4242 4242 4242) after clicking on Pay with Card. You may now downgrade you account back to Standard.
 
   The application is generally broken down by
-  - Welcome - Home
-  + Registrations - Register for an account and process confirmation number from email. Uses Devise.
-  - Wikis - Wiki CRUD
-  - Collaborator  - Collaborator CRUD
-  - Charges - Upgrade account/downgrade account. Uses Stripe.
+  - Welcome: Home
+  + Registrations: Register for an account and process confirmation number from email. Uses Devise.
+  - Wikis: Wiki CRUD
+  - Collaborator: Collaborator CRUD
+  - Charges: Upgrade account/downgrade account. Uses Stripe.
 
 # Problem
 
@@ -62,12 +57,12 @@ featured-img: blocipedia_logo
   - Rails
     - The entire application is written in Rails. Controllers, Helpers, Mailers, Models, Views, and Sqlite3/Postgresql for dev/prod are used.
   - Ruby
-  - JavaScript - collaborator functions
-  - jQuery - collaborator Ajax
+  - JavaScript: collaborator functions
+  - jQuery: collaborator Ajax
   - Ajax
-  - Devise - registration and email
-  - Stripe - credit card processing
-  - Select2 - collaborator multi-select
+  - Devise: registration and email
+  - Stripe: credit card processing
+  - Select2: collaborator multi-select
   - Bootstrap
   - HTML/CSS
   - Heroku

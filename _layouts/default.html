@@ -18,7 +18,7 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="/assets/img/posts/sleek_lg.jpg">
+    <div class="hero lazyload" data-bg="/assets/img/posts/hero_lg.png">
       <div class="hero__wrap">
         <h1 class="hero__title">David Alderson -- Portfolio</h1>
         <p class="hero__meta">A good programmer is someone who always looks both ways before crossing a one-way street. <span style="font-size:10px">Doug Linder</span></p>
@@ -30,7 +30,7 @@ layout: compress
         <div class="container">
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            {% for post in site.posts %}
+            {% for post in site.portfolio %}
               {% include card.html %}
             {% endfor %}
 

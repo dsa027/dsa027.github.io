@@ -2,13 +2,12 @@
 layout: post
 title: BlocJams-Angular
 thumbnail-path: assets/img/posts/bloc_jams_logo_thumb.png
-short-description: A Web-based, SPA song player written in AngularJS
-summary: A Web-based, SPA song player written in AngularJS
+summary: A Web-based, SPA song player written in AngularJS and using Buzz Player, Node.js, JavaScript, HTML/CSS, Ion Icons, Heroku, GitHub
 featured-img: bloc_jams_logo
 ---
-<a href="https://bloc-jams-angular-dsa027.herokuapp.com/">
-  <img src="/assets/img/posts/bloc_jams_logo_thumb.png"/>
-</a>
+[1]: https://bloc-jams-angular-dsa027.herokuapp.com/
+[2]: /assets/img/posts/bloc_jams_logo_thumb.png
+[![Heroku][2]][1]
 
 ![]( /assets/img/GitHub-Mark-32px.png "GitHub")
 [GitHub](https://github.com/dsa027/Bloc-Jams-AngularJS)
@@ -32,10 +31,10 @@ featured-img: bloc_jams_logo
   The application is generally broken down by
   - [Home](https://bloc-jams-angular-dsa027.herokuapp.com/) - home page with hero, marketing info, and navigation.
   + [Collection](https://bloc-jams-angular-dsa027.herokuapp.com/collection) - this is where albums are all kept.
-  + Album - head into the Collection tab and choose from 12 albums.
+  + Album: head into the Collection tab and choose from 12 albums.
   + [Playlists](https://bloc-jams-angular-dsa027.herokuapp.com/playlists) - Lets the user make their own collections of songs.
-  + Search - located in the upper-right corner of every page, search albums by Song name, Album name or Artist.
-  + PlayerBar - song controls: play, pause, seek, next, previous
+  + Search: located in the upper-right corner of every page, search albums by Song name, Album name or Artist.
+  + PlayerBar: song controls: play, pause, seek, next, previous
 
 # Problem
 
@@ -46,7 +45,7 @@ featured-img: bloc_jams_logo
   This project shows the practical application of several technologies:
   - Angular
     - The entire application is written in Angular. Controllers, Services, Directives and Filters are used.
-    Buzz Player
+  - Buzz Player
   - Node.js
   - JavaScript
   - HTML/CSS
