@@ -16,6 +16,7 @@ social:
     - https://www.linkedin.com/in/david-stuart-alderson/
     - https://github.com/dsa027
 
+google_analytics: "UA-118826978-1"
 disqus:
   shortname: dsa027-github-io # to enable comments replace with your_disqus_shortname
 
