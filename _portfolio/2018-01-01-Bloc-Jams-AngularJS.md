@@ -2,7 +2,8 @@
 layout: post
 title: BlocJams-Angular
 thumbnail-path: assets/img/posts/bloc_jams_logo_thumb.png
-summary: A Web-based, SPA song player written in AngularJS and using Buzz Player, Node.js, JavaScript, HTML/CSS, Ion Icons, Heroku, GitHub
+summary: A Web-based, SPA song player written in Angular
+tech: AngularJS, Buzz Player, Node.js, JavaScript, HTML/CSS, Ion Icons, Heroku, GitHub
 featured-img: bloc_jams_logo
 ---
 [1]: https://bloc-jams-angular-dsa027.herokuapp.com/
@@ -11,10 +12,6 @@ featured-img: bloc_jams_logo
 
 ![]( /assets/img/GitHub-Mark-32px.png "GitHub")
 [GitHub](https://github.com/dsa027/Bloc-Jams-AngularJS)
-{:.center}
-
-{% highlight javascript%}
-{% endhighlight %}
 
 # Summary
 
@@ -22,17 +19,17 @@ featured-img: bloc_jams_logo
 
 # Explanation
 
-  Streams, via [Buzz audio](http://buzz.jaysalvat.com/), songs located on the site. There are five songs in total, but they are called random names and contained within 12 randomly named albums. Albums are shown in the Collections tab.
+  Streams audio, via [Buzz audio](http://buzz.jaysalvat.com/), songs that are located on the site. There are five songs in total, but they are called random names and contained within 12 randomly named albums. Albums are shown in the Collections tab.
 
   Songs, Albums, and Artists may be searched for at the top-right of any page. Tap on one of the results in the dynamic list to visit the album.
 
   Add to a playlist, or create a new one, by selecting a song in the Album view. Playlists are viewed in the Playlist tab. This tab allows you to play a playlist, delete a playlist, and delete a song from a playlist.
 
   The application is generally broken down by
-  - [Home](https://bloc-jams-angular-dsa027.herokuapp.com/) - home page with hero, marketing info, and navigation.
-  + [Collection](https://bloc-jams-angular-dsa027.herokuapp.com/collection) - this is where albums are all kept.
+  - Home: home page with hero, marketing info, and navigation.
+  + Collection: this is where albums are all kept.
   + Album: head into the Collection tab and choose from 12 albums.
-  + [Playlists](https://bloc-jams-angular-dsa027.herokuapp.com/playlists) - Lets the user make their own collections of songs.
+  + Playlists: lets the user make their own collections of songs.
   + Search: located in the upper-right corner of every page, search albums by Song name, Album name or Artist.
   + PlayerBar: song controls: play, pause, seek, next, previous
 
@@ -44,7 +41,7 @@ featured-img: bloc_jams_logo
 
   This project shows the practical application of several technologies:
   - Angular
-    - The entire application is written in Angular. Controllers, Services, Directives and Filters are used.
+    - The entire application is written for Angular. Controllers, Services, Directives and Filters are used.
   - Buzz Player
   - Node.js
   - JavaScript

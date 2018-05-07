@@ -16,15 +16,18 @@
   <div class="post-card__inner">
     <div class="post-card__header">
       <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
-      {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
+      <!-- {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
         <time>{{ post.date | date: date_format }}</time>
-      </span>
+      </span> -->
     </div>
     {% if post.summary %}
       <p>{{ post.summary | strip_html | truncatewords:20 }}</p>
     {% else if post.content %}
       <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+    {% endif %}
+    {% if post.tech %}
+      <p>{{ post.tech | strip_html | truncatewords:20 }}</p>
     {% endif %}
   </div>
 </a>

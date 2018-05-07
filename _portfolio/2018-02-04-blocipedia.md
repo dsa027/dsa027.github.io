@@ -2,7 +2,8 @@
 layout: post
 title: Blocipedia
 thumbnail-path: assets/img/posts/blocipedia_logo_thumb.png
-summary: A Web-based, Wiki-like SPA Wiki-like written in Rails and using Ruby, JavaScript, jQuery, Ajax, Devise, Stripe, Select2, Bootstrap, HTML/CSS, Heroku, GitHub
+summary: A Web-based, Wiki-like SPA Wiki-like written in Rails
+tech: Rails, Ruby, JavaScript, jQuery, Ajax, Devise, Stripe, Select2, Bootstrap, HTML/CSS, Heroku, GitHub
 featured-img: blocipedia_logo
 ---
 [1]: https://blooming-wave-99055.herokuapp.com/
@@ -55,7 +56,7 @@ featured-img: blocipedia_logo
 
   This project shows the practical application of several technologies:
   - Rails
-    - The entire application is written in Rails. Controllers, Helpers, Mailers, Models, Views, and Sqlite3/Postgresql for dev/prod are used.
+    - The entire application is written for Rails. Controllers, Helpers, Mailers, Models, Views, and Sqlite3/Postgresql for dev/prod are used.
   - Ruby
   - JavaScript: collaborator functions
   - jQuery: collaborator Ajax
@@ -70,7 +71,7 @@ featured-img: blocipedia_logo
 
 # Results
 
-  Devise isn't working correctly yet on Heroku. There are minor bugs to still fix and some enhancements would make the app even better.
+  Devise isn't working correctly yet for the application on Heroku. There are minor bugs to still fix and some enhancements would make the app even better.
 
 # Conclusion
   After getting through the previous Bloccit project, Rails became a favorite and writing this application was challenging a great deal of fun.
